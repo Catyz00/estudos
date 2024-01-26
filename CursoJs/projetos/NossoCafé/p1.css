@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Young+Serif&display=swap");
+
+:root {
+    --cor0: #F2E8D5;
+    --cor1: #A69485;
+    --cor2: #735A4C;
+    --cor3: #592C22;
+    --cor4: #261914;
+    --fonte-padrao: 'Young Serif', serif;
+    --fonte-destaque: 'Libre Baskerville', serif;
+}
+body {
+    background-color: var(--cor3);
+    font-family: inherit;
+}
+
+div#logo {
+    text-align: center;
+}
