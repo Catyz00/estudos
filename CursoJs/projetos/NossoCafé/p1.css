@@ -11,6 +11,16 @@
     --fonte-padrao: 'Young Serif', serif;
     --fonte-destaque: 'Libre Baskerville', serif;
 }
+
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+nav {
+    background-color: var(--cor2);
+}
+
 body {
     background-color: var(--cor3);
     font-family: inherit;
@@ -18,4 +28,19 @@ body {
 
 div#logo {
     text-align: center;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+}
+
+p.img{
+    width: 977px;
+    height: 654px;
+}
+
+footer { 
+    background-color: #261914;
+    color: white;
 }
