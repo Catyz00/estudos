@@ -17,22 +17,55 @@
     padding: 0%;
 }
 
-nav {
-    background-color: var(--cor2);
-}
-
 body {
+    margin: 0; /* Remover margens padrão do corpo */
+    padding: 0; /* Remover preenchimento padrão do corpo */
     background-color: var(--cor3);
     font-family: inherit;
+  }
+
+  a {
+    background-color: var(--cor4); /* Cor de fundo */
+      color: var(--cor0); /* Cor do texto */
+      padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+      text-align: center; /* Alinhamento do texto */
+      text-decoration: none; /* Remover sublinhado padrão em links */
+      display: inline-block; /* Exibir como bloco em linha */
+      font-size: 16px; /* Tamanho da fonte */
+      cursor: pointer; /* Cursor do mouse ao passar por cima */
+      border: none; /* Remover borda padrão */
+      border-radius: 5px; /* Adicionar borda arredondada */
+      margin: 5px; /* Adiciona margem entre os botões */
 }
+
+  /* Estilo para o contêiner principal (centralizado) */
+.container {
+    max-width: 1500px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Auto-margem horizontal para centralizar */
+    padding: 20px; /* Preenchimento interno para espaçamento */
+    text-align: center; /* Centralizar o texto dentro do contêiner */
+  }
 
 div#logo {
     text-align: center;
 }
 
 main {
-    background-color: white;
+    background-color: var(--cor3);
+    color: var(--cor0);
     margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
+}
+
+h2 {
+    margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
+}
+
+p {
+    margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
 }
 
 p.img{
