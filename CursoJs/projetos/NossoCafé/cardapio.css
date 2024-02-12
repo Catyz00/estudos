@@ -48,6 +48,7 @@ a:active {
     transform: scale(0.7); /* reduz a escala ao clicar */
    
 }
+
   /* Estilo para o contêiner principal (centralizado) */
 .container {
     max-width: 1500px; /* Largura máxima do contêiner */
@@ -68,22 +69,14 @@ main {
 
 h1 {
     margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
+    color: black;
 }
 
 h2 {
     margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
+    color: black;
 }
 
 p {
     margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
-}
-
-p.img{
-    width: 977px;
-    height: 654px;
-}
-
-footer { 
-    background-color: #261914;
-    color: white;
 }
