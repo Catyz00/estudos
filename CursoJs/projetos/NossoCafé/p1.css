@@ -3,11 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Young+Serif&display=swap");
 
 :root {
-    --cor0: #F2E8D5;
-    --cor1: #A69485;
-    --cor2: #735A4C;
-    --cor3: #592C22;
-    --cor4: #261914;
+    --cor0: white;
+    --cor1: #A1D6CA;
+    --cor2: #6EB7A9;
+    --cor3: #5C3C27;
+    --cor4: #3F2719;
+    --cor5: #7E5A41;
     --fonte-padrao: 'Young Serif', serif;
     --fonte-destaque: 'Libre Baskerville', serif;
 }
@@ -24,9 +25,13 @@ body {
     font-family: inherit;
   }
 
+  nav {
+    background-color: var(--cor4);
+  }
+
   a {
-    background-color: var(--cor4); /* Cor de fundo */
-      color: var(--cor0); /* Cor do texto */
+    background-color: var(--cor1); /* Cor de fundo */
+      color: black; /* Cor do texto */
       padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
       text-align: center; /* Alinhamento do texto */
       text-decoration: none; /* Remover sublinhado padrão em links */
@@ -35,13 +40,13 @@ body {
       cursor: pointer; /* Cursor do mouse ao passar por cima */
       border: none; /* Remover borda padrão */
       border-radius: 5px; /* Adicionar borda arredondada */
-      margin: 5px; /* Adiciona margem entre os botões */
+      margin: 0px 100px 30px; /* Adiciona margem entre os botões */
       transition-duration: 0.4s;
       cursor: pointer;
 }
 
 a:hover {
-    background-color: var(--cor1) ; /* nova cor ao passar o mouse */
+    background-color: var(--cor2) ; /* nova cor ao passar o mouse */
 }
 
 a:active {
