@@ -3,11 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Young+Serif&display=swap");
 
 :root {
-    --cor0: #F2E8D5;
-    --cor1: #A69485;
-    --cor2: #735A4C;
-    --cor3: #592C22;
-    --cor4: #261914;
+    --cor0: white;
+    --cor1: #A1D6CA;
+    --cor2: #6EB7A9;
+    --cor3: #5C3C27;
+    --cor4: #3F2719;
+    --cor5: #7E5A41;
     --fonte-padrao: 'Young Serif', serif;
     --fonte-destaque: 'Libre Baskerville', serif;
 }
@@ -18,15 +19,18 @@
 }
 
 body {
-    margin: 0; /* Remover margens padrão do corpo */
-    padding: 0; /* Remover preenchimento padrão do corpo */
-    background-color: var(--cor3);
+    padding: 10px; /* Remover preenchimento padrão do corpo */
+    background-color: var(--cor4);
     font-family: inherit;
+    max-width: 1500px; /* Largura máxima do body */
+    margin-left: auto; /* Largura esquerda do body */
+    margin-right: auto; /* Largura direita do body */
+    margin: 20px 450px 20px 450px;
   }
 
   a {
-    background-color: var(--cor4); /* Cor de fundo */
-      color: var(--cor0); /* Cor do texto */
+    background-color: var(--cor5); /* Cor de fundo */
+      color: white; /* Cor do texto */
       padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
       text-align: center; /* Alinhamento do texto */
       text-decoration: none; /* Remover sublinhado padrão em links */
@@ -35,26 +39,24 @@ body {
       cursor: pointer; /* Cursor do mouse ao passar por cima */
       border: none; /* Remover borda padrão */
       border-radius: 5px; /* Adicionar borda arredondada */
-      margin: 5px; /* Adiciona margem entre os botões */
+      margin: 20px 20px 15px; /* Adiciona margem entre os botões */
       transition-duration: 0.4s;
-      cursor: pointer;
-}
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    }
 
 a:hover {
-    background-color: var(--cor1) ; /* nova cor ao passar o mouse */
+    background-color: var(--cor4) ; /* nova cor ao passar o mouse */
 }
 
 a:active {
     transform: scale(0.7); /* reduz a escala ao clicar */
-   
 }
 
   /* Estilo para o contêiner principal (centralizado) */
 .container {
     max-width: 1500px; /* Largura máxima do contêiner */
-    margin: 0 auto; /* Auto-margem horizontal para centralizar */
-    padding: 20px; /* Preenchimento interno para espaçamento */
-    text-align: center; /* Centralizar o texto dentro do contêiner */
+    margin-left: auto;
+    margin-right: auto;
   }
 
 div#logo {
@@ -62,21 +64,39 @@ div#logo {
 }
 
 main {
-    background-color: var(--cor3);
-    color: var(--cor0);
+    background-color: var(--cor1);
+    color: black;
     margin: auto;
 }
 
 h1 {
-    margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
-    color: black;
+    margin-top: 0;
+    margin-bottom: 1rem; /* Adiciona margem na parte inferior do título */
+    text-align: center;
 }
 
 h2 {
-    margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
-    color: black;
+    margin-top: 0;
+    margin-bottom: 1rem; /* Adiciona margem na parte inferior do título */
 }
 
 p {
-    margin-bottom: 20px; /* Adiciona margem na parte inferior do título */
+    margin-top: 0;
+    margin-bottom: 1rem; /* Adiciona margem na parte inferior */
+}
+
+li {
+    display: list-item;
+    margin: auto;
+}
+
+p.img{
+    width: 977px;
+    height: 654px;
+}
+
+footer { 
+    background-color: var(--cor2);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.7, 0.7, 0.7);
 }

@@ -22,10 +22,10 @@ body {
     padding: 10px; /* Remover preenchimento padrão do corpo */
     background-color: var(--cor4);
     font-family: inherit;
-    text-align: center; /* Centralizar o texto dentro do contêiner */
     max-width: 1500px; /* Largura máxima do body */
     margin-left: auto; /* Largura esquerda do body */
     margin-right: auto; /* Largura direita do body */
+    margin: 20px 450px 20px 450px;
   }
 
   a {
@@ -83,6 +83,11 @@ h2 {
 p {
     margin-top: 0;
     margin-bottom: 1rem; /* Adiciona margem na parte inferior */
+}
+
+li {
+    display: list-item;
+    margin: auto;
 }
 
 p.img{
