@@ -1,10 +1,10 @@
-#💻 Meu Aprendizado em Programação-
+# 💻 Meu Aprendizado em Programação
 
 Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendendo e praticando na área de programação, com foco em JavaScript, React, HTML/CSS e Design de UI/UX. 🚀
 
 # 📚 O que já aprendi
 
-# 🌟 JavaScript (Curso em Vídeo)
+## 🌟 JavaScript (Curso em Vídeo)
 
 -Fundamentos da linguagem: variáveis, operadores e estruturas de controle
 
@@ -14,11 +14,11 @@ Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendend
 
 -Eventos e interatividade em páginas web
 
-# ⚛️ React
+## ⚛️ React
 
 -Componentes e props
 
-# 🔄 O que estou revisando
+## 🔄 O que estou revisando
 
 🖌️ HTML e CSS (Curso do Dev em Dobro)
 
@@ -28,7 +28,7 @@ Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendend
 
 -Responsividade: mobile-first e media queries
 
-# 🎨 Design UI/UX
+## 🎨 Design UI/UX
 
 -Princípios básicos de design de interfaces
 
@@ -38,7 +38,7 @@ Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendend
 
 -Uso de cores, tipografia e hierarquia visual para criar designs intuitivos
 
-# 💡 Como estou organizando os estudos
+## 💡 Como estou organizando os estudos
 
 -Desafios Práticos: mini-projetos para aplicar os conceitos aprendidos
 
