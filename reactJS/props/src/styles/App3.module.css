@@ -1,0 +1,25 @@
+.app{
+    background-color: rgb(220, 235, 241);
+    border-radius: 15px;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    gap: 50px;
+    height: 30rem;
+    margin: 20rem auto;
+}
+
+.divTextos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 76%;
+    margin: 10px;
+}
+
+.globals3{
+    height: auto;
+    width: 254px;
+    border: 8px solid black;
+}

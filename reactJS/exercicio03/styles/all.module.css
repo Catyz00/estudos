@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divProfile{
+    padding: 4rem;
+    
+}
+
+.app{
+    font-family: 'Italiana';
+    background-color: #525252;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.divTextos{
+    font-family: 'italianno';
+    font-size: 20px;
+    display: flex;  
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+img{
+    border: 1px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding: 6px;
+    border-radius: 100px;
+}
+
+hr{
+    width: 20%;
+    margin: 15px;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+
+        tfoot{
+            background-color: rgb(0, 209, 251);
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Aniversario</th>
+                <th>Idade</th>
+                <th>Endereco</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Catarina</th>
+                <th>05/04</th>
+                <th>21 anos</th>
+                <th rowspan="3">Sp capital</th>
+            </tr>
+            <tr>
+                <th>Joao</th>
+                <th>02/09</th>
+                <th>22 anos</th>
+            </tr>
+            <tr>
+                <th>Bia</th>
+                <th>01/12</th>
+                <th>24 anos</th>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">É isso dae</td>
+                <td>paia</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
