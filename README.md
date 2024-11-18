@@ -16,14 +16,14 @@ Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendend
 
 ## Alguns projetos feitos: 
 
-[<img src="analisador.gif">] [<img src="contador.gif">] [<img src="hrdodia.png">] [<img src="taubuada.gif">]
+[<img src="analisador.gif" alt="gif de analisador de numeros feito com JavaScript">] [<img src="contador.gif" alt="gif de contador de numeros feito com JavaScript">] [<img src="hrdodia.png">] [<img src="taubuada.gif" alt="gif da tabuada feito com JavaScript">]
 
 ## ⚛️ React
 
 -Componentes e props
 
 ## Alguns projetos feitos:
-[<img src="cardREACT.gif">] [<img src="posterREACT.gif">] [<img src="">]
+[<img src="cardREACT.gif" alt="card de portifolio feito com React">] [<img src="posterREACT.gif" alt="poster do harry potter feito com React">]
 
 ## 🔄 O que estou revisando
 
@@ -46,7 +46,7 @@ Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendend
 -Uso de cores, tipografia e hierarquia visual para criar designs intuitivos
 
 # Unico Projeto feito usando o FIGMA: 
-[<img src="UIUX.gif">]
+[<img src="UIUX.gif" alt="portifolio feito no FIGMA e passado para o HTML e CSS">]
 
 ## 💡 Como estou organizando os estudos
 
