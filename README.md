@@ -14,9 +14,16 @@ Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendend
 
 -Eventos e interatividade em páginas web
 
+## Alguns projetos feitos: 
+
+[<img src="analisador.gif">] [<img src="contador.gif">] [<img src="hrdodia.png">] [<img src="taubuada.gif">]
+
 ## ⚛️ React
 
 -Componentes e props
+
+## Alguns projetos feitos:
+[<img src="cardREACT.gif">] [<img src="posterREACT.gif">] [<img src="">]
 
 ## 🔄 O que estou revisando
 
@@ -37,6 +44,9 @@ Bem-vindo ao meu repositório de estudos! Aqui compartilho o que estou aprendend
 -Protótipos e wireframes usando Figma
 
 -Uso de cores, tipografia e hierarquia visual para criar designs intuitivos
+
+# Unico Projeto feito usando o FIGMA: 
+[<img src="UIUX.gif">]
 
 ## 💡 Como estou organizando os estudos
 
