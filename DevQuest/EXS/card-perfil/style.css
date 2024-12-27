@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root{
+    --text-color1: hsl(227, 10%, 46%);
+    --text-color2: rgb(29, 29, 29);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 430px;
+    height: 500px;
+    border-radius: 11px;
+}
+
+.sobre{
+    color: var(--text-color2);
+    font-size: 30px;
+}
+
+.number{
+    align-items: start;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img img{
+    width: 120px;
+    height: 120px;
+}
+
+.infos{
+    color: var(--text-color1);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.nome-idade{
+    display: flex;
+    align-items: center; /* Alinha o nome e a idade verticalmente */
+    gap: 5px; /* Espaço entre o nome e a idade */
+}
+
+.name{
+    color: var(--text-color2);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.idade{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cidade{
+    font-size: 22px;
+}
+
+hr{
+    color: var(--text-color2);
+    width: 100%;
+    margin: 50px;
+}
+
+.numbers{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: var(--text-color1)
+}
+
+.numero{
+    color: var(--text-color2);
+    font-weight: bold;
+    margin-top: 5px;
+}
