@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Reduz a largura do card */
+        height: 280px; /* Ajusta a altura do card */
+
+    }
+
+    .num-do-conselho {
+        font-size: 20px; /* Ajusta o tamanho da fonte em telas pequenas */
+    }
+
+    .conselho {
+        font-size: 22px; /* Ajusta o tamanho da fonte em telas pequenas */
+    }
+
+    .decoracao {
+        margin-top: 30px; /* Reduz o espaço entre a decoração e o conselho */
+    }
+
+    .botao {
+        bottom: -20px; /* Ajusta a posição do botão em telas menores */
+    }
+
+    button {
+        padding: 20px 20px; /* Reduz o tamanho do botão */
+        bottom: -28px;
+    }
+
+    button i {
+        font-size: 18px; /* Ajusta o tamanho do ícone */
+    }
+}

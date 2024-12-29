@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+    background-color: hsl(217, 19%, 24%);
+    color: #cee3e9;
+    width: 520px;
+    height: 320px;
+    border-radius: 14px;
+    position: relative;
+}
+
+.num-do-conselho{
+    color: hsl(150, 100%, 66%);
+    margin: 27px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.conselho{
+    margin: 20px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.decoracao {
+    margin: 20px;
+    margin-top: 40px;
+    color: #cee3e9;
+    display: flex; /* Usando flexbox */
+    align-items: center; /* Alinha o ícone no centro */
+    justify-content: space-between; /* Espaça as linhas para as extremidades */
+    gap: 3px;
+}
+
+.decoracao i {
+    font-size: 20px; /* Ajusta o tamanho do ícone */
+    transform: rotate(270deg); /* Gira o ícone 180 graus */
+}
+
+.esquerda,
+.direita {
+    flex: 1; /* Faz as linhas ocuparem o espaço disponível */
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #cee3e9; /* Define uma linha fina */
+    margin: 0; /* Remove margens extras */
+}
+
+.botao {
+    position: absolute; /* Torna o botão posicionado de forma absoluta em relação ao contêiner */
+    bottom: -28px; /* Coloca o botão perto da parte inferior do card */
+    left: 50%; /* Centraliza o botão horizontalmente */
+    transform: translateX(-50%); /* Corrige o alinhamento do botão */
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 60%; /* Faz o botão ficar redondo */
+    padding: 20px 20px; /* Adiciona espaço interno para o botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Altera o cursor quando passa sobre o botão */
+}
+
+button i{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hsl(150, 80%, 50%);
+}
+
