@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-areas: 
+    "principal propaganda"
+    "principal videos-sugeridos";
+
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 20px;
+    padding: 35px;
+}
+
+.principal{
+    grid-area: principal;
+}
+
+.principal img{
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.principal .titulo{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.principal .visu{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.propaganda{
+    grid-area: propaganda;
+}
+
+.video-sugeridos{
+    grid-area: videos-sugeridos;
+}
+
+.video-sugeridos .video{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.video-sugeridos .video .titulo{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.video-sugeridos .video p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+

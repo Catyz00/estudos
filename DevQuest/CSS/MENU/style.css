@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Days One', sans-serif;
+    font-size: 27px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente logo e menu */
+    justify-content: space-between; /* Espaço entre logo e menu */
+    padding: 10px 50px;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Garante que os itens do menu fiquem centralizados verticalmente */
+    gap: 20px;
+}
+
+.menu ul {
+    list-style: none; /* Remove os marcadores das listas */
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: rgb(160, 16, 160);
+    color: white;
+    border-radius: 15px;
+}
+
+.cadastre-se {
+    background-color: rgb(70, 70, 255);
+    color: white;
+    border-radius: 15px;
+}

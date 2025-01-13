@@ -1,0 +1,29 @@
+@media (max-width: 480px) {
+    header {
+        display: flex;
+        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        flex-direction: column;
+        gap: 20px;
+        align-items: center; /* Alinha os itens ao centro verticalmente */
+        text-align: center; /* Garante que o texto dentro dos itens seja centralizado */
+    }
+
+    .logo img {
+        width: 320px; /* Aumenta o tamanho da imagem */
+        height: auto; /* Mantém a proporção */
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column; /* Alinha o menu em coluna */
+        align-items: center; /* Alinha os links no centro */
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 40px;
+        margin: 10px;
+    }
+}
